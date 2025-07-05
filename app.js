@@ -5,7 +5,10 @@ if(number>0){
 }else if(number<0){
     console.log("The number is negative");
     alert("The number is negative");
-}else{
+}else if(number==0){
     console.log("The number equals to zero");
     alert("The number equals to zero");
+}else if(isNaN(number)){
+    console.log("Invalid input, please enter a number");
+    alert("Invalid input, please enter a number");
 }
